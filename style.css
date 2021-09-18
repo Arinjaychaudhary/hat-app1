@@ -1,0 +1,15 @@
+.btn-warning{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+canvas{
+    animation-name: colour;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colour{
+from{box-shadow: 6px 6px 40px red;}
+to{box-shadow: 6px 6px 40px green;}
+}
